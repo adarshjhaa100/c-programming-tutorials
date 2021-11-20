@@ -2,5 +2,5 @@
 
 <h3> Instrcutions to run the code </h3>
 <p>Requires a C/C++ compiler like gcc installed.</p>
-<p>Navigate to any directory and run using <p><code> gcc filename.c -o outputfilename </code></p> and then run the output file using <p><code>./outputfilename</code></p>. Run command may slightly differ for windows</p>
+<p>Navigate to any directory and run using <p><code> cd dirname </code></p><p><code> gcc filename.c -o outputfilename </code></p> and then run the output file using <p><code>./outputfilename</code></p> Run command may slightly differ for windows</p>
 
