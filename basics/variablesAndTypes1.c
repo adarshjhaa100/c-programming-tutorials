@@ -22,6 +22,10 @@ int main(void){
     printf("%d\n", (int)floatingpt); // c automatically converts between numeric types whenever asked
     printf("%llu\n", sizeof(string)); // print sizeof variables and datatypes
 
+    /*
+    Format specifiers: u->unsigned decimal
+    */
+
     // boolean type: value of conditional and boolean(&&, ||, !) statement
     printf("%d", 1>2);
 
