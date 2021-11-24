@@ -43,9 +43,6 @@ int main(void){
     // pointer to array: the array identifier is actually a pointer to array
     int *ptrarr=arr; // this is equivalent to ptrarr=&arr[0]
 
-
-
-
     return 0;
 }
 

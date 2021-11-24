@@ -18,6 +18,8 @@ int main(void){
     printf("hello");
     printf("Hello%xn", ptrnull);
     
+    // sizeof any type of pointer is 8 bytes(for 64 bit system) or 4(for 32 bit systems)
+
     // Situations where its recommended to pass things by pointer:
     // 1. Need to save the modified values of the variable
     // 2. For variables occupying large space(such as structs). Thich saves memory space of stack  
