@@ -41,5 +41,9 @@ int main(void){
     printf("%f\n", hexval); // gives 0.0000( no floating point representation for 0x40)
     printf("%c\n", hexval); // gives @
 
+    int var_assign=10;
+    printf("%d",(var_assign=12)); // common mistake that people make while comparing values, this will assign the value 12 and print
+
+
     return 0;
 }
