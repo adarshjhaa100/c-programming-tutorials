@@ -4,6 +4,9 @@ primitive: int, float, char, double, string(char*)
 */
 #include<stdio.h>
 
+
+
+
 int main(void){
     // declaring(giving identifier) and assigning a variable
     int integer=21;     
