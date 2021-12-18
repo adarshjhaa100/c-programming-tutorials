@@ -8,7 +8,7 @@ int main(){
     *ptrint=23;
 
     int *ptrarr=malloc(sizeof(int)*10); // allocate memory to 10 elements of int array
-    // generally we should clean allocated array using memset
+    // generally we should clean garbage values in allocated array using memset(set all values to 0)
     memset(ptrarr, 0, sizeof(int)*10);
 
     *ptrarr=10;
@@ -32,4 +32,6 @@ int main(){
     free(ptrarr);
     free(ptrarr2);
     return 0;
+
+    
 }
